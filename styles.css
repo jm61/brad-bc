@@ -71,6 +71,13 @@ body {
     grid-column-gap: 45px;
     grid-row-gap:45px;
   }
+  .featured-item{
+    box-shadow: 0 30px 60px -12px 
+    rgba(50,50,93,.25),0 18px 36px -18px      
+    rgba(0,0,0,.3),0 -12px 36px -8px           
+    rgba(0,0,0,.025);
+    padding: 10px;
+  }
   .featured-item h3 {
     color:#283593;
     font-size:1.5rem;
@@ -87,5 +94,43 @@ body {
     padding:20px 0;
     color:#999;
     font-size:.9rem;
+  }
+  .section {
+    padding: 100px 20px;
+    position: relative;
+  }
+  .shape-one {
+    background: #42a5f5;
+    top: 0px;
+    left:5%;
+    right:0;
+    width: 80%;
+    height: 40px;
+    position:absolute;
+  }
+  .shape-two {
+    background: #4527a0;
+    top: 40px;
+    left:10%;
+    right:0;
+    width: 80%;
+    height: 40px;
+    position:absolute;
+  }
+  .shape-three {
+    background: #aed581  ;
+    top: 80px;
+    left:15%;
+    right:0;
+    width: 80%;
+    height: 40px;
+    position:absolute;
+  }
+  .shapes {
+    transform:skewY(-12deg);
+    position:relative;
+    top:0;bottom:0;left:0;right:0;
+    opacity:.3;
+    z-index:1;
   }
   
