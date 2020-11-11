@@ -1,0 +1,13 @@
+.header {
+    text-align: center;
+}
+.photos {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+      
+}
+.photos img {
+    max-width: 80%;
+    margin: auto;
+}
